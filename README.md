@@ -7,7 +7,7 @@ node chat app is chatting app for communities where they can talk with each othe
 - JAVASCRIPT
 - SOCKET.IO
 - NODEJS
-- OPENWEATHER API
+- [OPEN WEATHER API](https://openweathermap.org/api)
 - GOOGLE LOCATION API
  
 ## How To Install
@@ -15,3 +15,9 @@ node chat app is chatting app for communities where they can talk with each othe
 - clone this repository `git clone https://github.com/yashrajb/Node-chat-app.git`
 - go to directory and run command `npm install`
 - and after that run `npm start` 
+
+## Add Token Of Openweatherapi
+
+- go to `public/js/main.js`
+- find the this line `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=XXXXXXXXXXXXX)`
+- remiove `XXXXXXXXXXXXXX` and replace with your [openweatherapi](https://openweathermap.org/api) token.
