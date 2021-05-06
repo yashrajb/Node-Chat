@@ -14,3 +14,4 @@ node chat app is chatting app for communities where they can talk with each othe
 
 - clone this repository `git clone https://github.com/yashrajb/Node-chat-app.git`
 - go to directory and run command `npm install`
+- and after that run `npm start` 
